@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/libFunc.sol": "libFunc"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libFunc.sol": {
+			"keccak256": "0xf5f36632a8218ae8c63ff41985b0bb2c0df72ca1d190b68aafc5eacca0d19fbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af89f6a0853e6b04485797fee62b5ccae056fe902011f77448ecd03e47b2421d",
+				"dweb:/ipfs/QmW7uV8z29dMzv4MbU6JGk8qMKuBugq1d8Cr5vz4Q9fxoX"
+			]
+		}
+	},
+	"version": 1
+}

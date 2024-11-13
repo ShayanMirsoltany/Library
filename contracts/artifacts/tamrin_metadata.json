@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					}
+				],
+				"name": "addUserPrice",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentDate",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUsers",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "removePrice",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/tamrin.sol": "tamrin"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/libFunc.sol": {
+			"keccak256": "0xf5f36632a8218ae8c63ff41985b0bb2c0df72ca1d190b68aafc5eacca0d19fbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af89f6a0853e6b04485797fee62b5ccae056fe902011f77448ecd03e47b2421d",
+				"dweb:/ipfs/QmW7uV8z29dMzv4MbU6JGk8qMKuBugq1d8Cr5vz4Q9fxoX"
+			]
+		},
+		"contracts/tamrin.sol": {
+			"keccak256": "0xa82465d549f8cdc2159a53bd09bee6d604ca3e0d6f8c519777d3d6ed9de66d02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://caf01d69e02a276a1e514c89ca0ae5a55768842867ed4b23d45acd3cfbdee819",
+				"dweb:/ipfs/QmUzkqTrEGWvTLys98ubEYA9PHaJq8B8xR8382ZNWryDmN"
+			]
+		}
+	},
+	"version": 1
+}
